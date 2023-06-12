@@ -1,6 +1,7 @@
 # Amphibian-segmentation-clock-models
 
 SCRIPTS 
+
 DDE_solns.m 
 Gives the code and general XX used to solve the DDE systems that different parameter combinations yield; we include the local functions 
 called to solved DDE systems and assess oscillatory behavior (period and amplitude of gene expression).
@@ -34,9 +35,14 @@ sensitivity analysis.m
 Script used to carry out sensitivty analyses shown in Tables 3 and S2. 
 
 LOCAL FUNCTIONS
+
 Amp.m - gives average amplitude of a DDE solution
+
 P.m - gives average periof of a DDE solution 
+
 ddefun_nested.m - uses ddesd to solve DDE systems corresponding to the different models and parameter combinations
+
 history.m - sets intial mRNA and protein molecule values to 100 
+
 osc_behavior.m - stores local extrema and time stamps in vectors, cuts first 5 cycles of oscillation, and uses local functions Amp.m and P.m
                   to retrieve period and amplitude of gene expression for each solution
