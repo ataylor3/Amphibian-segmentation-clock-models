@@ -1,6 +1,16 @@
 # Amphibian-segmentation-clock-models
 
-SCRIPTS 
+## Overview
+
+## How to use
+
+## Layout
+
+### Data
+
+### Scripts and local functions
+
+#### Scripts 
 
 DDE_solns.m 
 Gives the code and general XX used to solve the DDE systems that different parameter combinations yield; we include the local functions 
@@ -31,7 +41,7 @@ Script used to generate period plots in Figures 1 and 2. Resulting period data m
 sensitivity analysis.m
 Script used to carry out sensitivty analyses shown in Tables 3 and S2. 
 
-LOCAL FUNCTIONS
+#### Local functions
 
 Amp.m - gives average amplitude of a DDE solution
 
