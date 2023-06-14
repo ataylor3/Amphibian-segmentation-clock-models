@@ -2,11 +2,23 @@
 
 ## Overview
 
-## How to use
+This repository includes simluation code and raw data used to generate figures and results in the manuscript *Amphibian segmentation clock models suggest mechanisms of slowed development across increasing genome size and nuclear volume*. 
 
 ## Layout
 
+This repository is split into two main folders: Data and Scripts and local functions. To look at and/or download raw data (nuclear export simulation results and statistics; period & amplitude of expression across all protein half-life and total delay combinations; critical total delay values across increasing protein half-life), navigate to the Data folder. To download MATLAB scripts used for the simulations described in the paper (which produce the raw data given in the Data folder), navigate to the Scripts_localFunctions folder. 
+
 ### Data
+
+#### Nuclear export simulation results and statistics
+
+#### Period of oscillation
+
+#### Amplitude of oscillation
+
+#### Impact of increased gene stability on period of oscilltion
+
+#### Analytical results: Tcrit across increasing protein stability 
 
 ### Scripts and local functions
 
@@ -53,3 +65,8 @@ history.m - sets intial mRNA and protein molecule values to 100
 
 osc_behavior.m - stores local extrema and time stamps in vectors, cuts first 5 cycles of oscillation, and uses local functions Amp.m and P.m
                   to retrieve period and amplitude of gene expression for each solution
+                  
+## How to use
+
+
+
