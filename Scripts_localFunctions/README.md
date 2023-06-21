@@ -1,5 +1,7 @@
 # Scripts and local functions
 
+All script and local function files include comments with step-by-step explanations of the code. 
+
 ## Scripts 
 
 __DDE_solns.m__ 
