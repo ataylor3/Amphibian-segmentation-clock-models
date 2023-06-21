@@ -26,6 +26,9 @@ Excel book that gives amplitudes of gene expression for each protein half-life/t
 
 ## Critical total delay value across protein stability range for various models shown
 
-__Analytical results: Tcrit across increasing protein stability__
+__analytical_results.xlsx__
+
+Excel book that gives the critical total delay values corresponding to protein half-lives across a range of 3 to 23 minutes, corresponding to the plots in figures S1 and S2: Xlaevis corresponds to figure S1A; Amexicanum_hlm3 corresponds to figure S1B; Amexicanum_hlmTexp_BM corresponds to figure S2A; Amexicanum_hlmTexp_fBM corresponds to figure S2B; Amexicanum_hlm1 2Texp_BM corresponds to figure S2C; Amexicanum_hlm1 2Texp_fBM corresponds to figure S2D; Amexicanum_hlm1 4Texp_BM corresponds to figure S2E; and Amexicanum_hlm1 4Texp_fBM corresponds to figure S2F.
+
 
 ADD
