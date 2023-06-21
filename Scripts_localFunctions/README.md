@@ -1,6 +1,6 @@
 # Scripts and local functions
 
-All script and local function files include comments with step-by-step explanations of the code. 
+All script and local function files include comments with step-by-step explanations of the code. General explanations of what each script and local function does/is used to produce can be found below.
 
 ## Scripts 
 
