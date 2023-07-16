@@ -22,7 +22,7 @@ Amexicanum_BM_hmTexp corresponds to figure S5A; Amexicanum_BM_25%inc_hmTexp corr
 
 __Amplitude of expression.xlsx__
 
-Excel book that gives amplitudes of gene expression for each protein half-life/total delay time combination for every model shown in figures S6 and S7: Xlaevis_BM corresponds to figure S6A; Xlaevis_fBM corresponds to figure S6B; Amexicanum_BM_hm3 corresponds to figure S6C; and Amexicanum_fBM_hm3 corresponds to figure S6D. Amexicanum_BM_hmTexp corresponds to figure S7A; Amexicanum_fBM_hmTexp corresponds to figure S7B; Amexicanum_BM_hm1 2Texp corresponds to figure S7C; Amexicanum_fBM_hm1 2Texp corresponds to figure S7D; Amexicanum_BM_hm1 4Texp corresponds to figure S7E; and Amexicanum_fBM_hm1 4Texp corresponds to figure S7F. 
+Excel book that gives amplitudes of gene expression for each protein half-life/total delay time combination for every model shown in figures S6 and S7: Amexicanum_BM_hmTexp_mRNA corresponds to figure S6A; Amexicanum_fBM_hmTexp_mRNA corresponds to figure S6B; Amexicanum_BM_hm1 2Texp_mRNA corresponds to figure S6C; Amexicanum_fBM_hm1 2Texp_mRNA corresponds to figure S6D; Amexicanum_BM_hm1 4Texp_mRNA corresponds to figure S6E; and Amexicanum_fBM_hm1 4Texp_mRNA corresponds to figure S6F. Amexicanum_BM_hmTexp_P corresponds to figure S7A; Amexicanum_fBM_hmTexp_P corresponds to figure S7B; Amexicanum_BM_hm1 2Texp_P corresponds to figure S7C; Amexicanum_fBM_hm1 2Texp_P corresponds to figure S7D; Amexicanum_BM_hm1 4Texp_P corresponds to figure S7E; and Amexicanum_fBM_hm1 4Texp_P corresponds to figure S7F. 
 
 ## Critical total delay value across protein stability range for various models shown
 
