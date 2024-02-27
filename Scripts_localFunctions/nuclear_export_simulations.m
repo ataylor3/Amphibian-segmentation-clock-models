@@ -241,8 +241,9 @@ ax = gca;
 ax.FontSize = 15;
 
 figure()
-plot(r, mean_fBM_o, r, mean_BM_o, 'LineWidth', 1.0)
+plot(r, mean_fBM_o, r, mean_BM_o, 'LineWidth', 1.0) % plot simulation results
 xlim([3 6])
+hold on
 xline(4, '--', 'Color', "red")
 xline(5.5, '--', 'Color', "red")
 hold on
@@ -250,10 +251,14 @@ scatter(3, 3.36, '>','r','LineWidth',3.5)
 title("Nuclear export estimates across increasing radii", 'FontSize',18)
 xlabel("Radius (\mum)", 'FontSize',15)
 ylabel("Mean export time (min)", 'FontSize',15)
-legend({"Diffusion: obstructed, initial position: origin", ...
-    "Diffusion: normal, initial position: origin"}, 'FontSize', 12)
+hold on
+plot(r, (r.^2)/(6 * 0.4464), 'LineStyle','--') % plot analytical results (
+legend({"Simulation results: obstructed diffusion from origin", ...
+    "Simulation results: normal diffusion from origin","","","",...
+    "Analytical results: normal diffusion from origin"}, 'FontSize', 12)
 ax = gca;
 ax.FontSize = 15;
+hold off
 
 %%
 
