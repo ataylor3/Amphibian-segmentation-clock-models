@@ -2,10 +2,10 @@
 
 % A. mexicanum Brownian Motion model
 
-% Can a period of 155 minutes be achieved by further increasing gene
+% Can a period of 154 minutes be achieved by further increasing gene
 % product stability (without any increase in total delay time)?
 
-% Take A. mexicanum BM model that is closest to achieving a 155 minute
+% Take A. mexicanum BM model that is closest to achieving a 154 minute
 % period of gene expression: 
 % A. mexicanum Brownian Motion model, mRNA half-life hl_m = Texp (BM)
 
@@ -26,7 +26,7 @@ p_crit = 420; % critical protein threshold (species-specific)
 
 % Delay parameters stay the same
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 11.97; % export delay (BM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
