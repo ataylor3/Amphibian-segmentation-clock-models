@@ -22,7 +22,7 @@ HL_p = 3; % protein half life
 Tp = 1.29; % protein production delay (translation delay)
 
 Ttx = 1.34; % transcriptional delay
-Tin = 4.15; % intron delay
+Tin = 4.65; % intron delay
 Texp = 6.39; % export delay
 
 Tm = Ttx + Tin + Texp; % mRNA production delay
@@ -56,7 +56,7 @@ P_protein = osc(1,2) % period of protein expression
 Tp = 2.18; % protein production delay (translation delay)
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron delay
+Tin = 12.78; % intron delay
 Texp = 11.97; % export delay
 
 Tm = Ttx + Tin + Texp; % mRNA production delay
