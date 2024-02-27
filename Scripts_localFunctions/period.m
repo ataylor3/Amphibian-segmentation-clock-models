@@ -1,4 +1,4 @@
-%% ASSESSING PERIOD OF GENE EXPRESSION
+%% ASSESSING PERIOD OF GENE EXPRESSION (Figure 1)
 
 % start by clearing workspace and command window
 clear
@@ -16,7 +16,7 @@ k = 33; % mRNA synthesis rate in absence of inhibition (mRNA/cell/min)
 % Xenopus laevis, Brownian Motion (normal diffusion) model
 
 Ttx = 1.34; % transcription delay
-Tin = 4.15; % intron delay
+Tin = 4.65; % intron delay
 Texp = 6.39; % export delay (BM simulations, radius = 4)
 Ttl = 1.29; % translation delay
 
@@ -95,7 +95,7 @@ c.Label.FontSize = 15;
 % Ambystoma mexicanum, Brownian Motion (normal diffusion) model
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron delay
+Tin = 12.78; % intron delay
 Texp = 11.97; % export delay (BM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -162,7 +162,7 @@ c.Label.FontSize = 15;
 % Xenopus laevis, fractional Brownian Motion (obstructed diffusion) model
 
 Ttx = 1.34; % transcriptional delay
-Tin = 4.15; % intron delay
+Tin = 4.65; % intron delay
 Texp = 8.36; % export delay (fBM simulations, radius = 4)
 Ttl = 1.29; % translation delay
 
@@ -230,7 +230,7 @@ c.Label.FontSize = 15;
 % model
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron delay
+Tin = 12.78; % intron delay
 Texp = 26.27; % export delay (fBM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -292,13 +292,13 @@ ax.FontSize = 15;
 c.Label.String = 'Period of gene expression (min)'
 c.Label.FontSize = 15;
 
-%% TESTING OUT MRNA STABILITY SCENARIOS
+%% TESTING OUT MRNA STABILITY SCENARIOS (Figure 2)
 
 % A. mexicanum, Brownian Motion (normal diffusion) model
 % mRNA half-life = export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 11.97; % export delay (BM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -366,7 +366,7 @@ c.Label.FontSize = 15;
 % mRNA half-life = 1/2 export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 11.97; % export delay (BM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -434,7 +434,7 @@ c.Label.FontSize = 15;
 % mRNA half-life = 1/4 export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 11.97; % export delay (BM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -502,7 +502,7 @@ c.Label.FontSize = 15;
 % mRNA half-life = export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 26.27; % export delay (fBM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -570,7 +570,7 @@ c.Label.FontSize = 15;
 % mRNA half-life = 1/2 export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 26.27; % export delay (fBM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
@@ -638,7 +638,7 @@ c.Label.FontSize = 15;
 % mRNA half-life = 1/4 export time
 
 Ttx = 6.89; % transcriptional delay
-Tin = 12.87; % intron splicing delay
+Tin = 12.78; % intron splicing delay
 Texp = 26.27; % export delay (fBM simulations, radius = 5.5)
 Ttl = 2.18; % translation delay
 
